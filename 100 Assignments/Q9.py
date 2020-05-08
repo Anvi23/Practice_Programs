@@ -9,7 +9,7 @@
 #Then, the output should be:
 #HELLO WORLD
 #PRACTICE MAKES PERFECT
-
+'''
 #single line
 line=input('Enter a single line: ').split()
 lst=[]
@@ -17,10 +17,11 @@ lst=[]
 for val in line:
     lst.append(val.upper())
 print(' '.join(lst))
-
+'''
 #multiple lines
 mlines=[]
 while True:
+
     line=input()
     if line:
         mlines.append(line.upper())

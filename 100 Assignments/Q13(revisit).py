@@ -10,9 +10,11 @@
 
 
 sentence=input('Enter a sentence: ')
+print(sentence)
 digits=0
 letters=0
 for val in sentence:
+    
     if val.isdigit():
         digits+=1
     if val.isalpha():

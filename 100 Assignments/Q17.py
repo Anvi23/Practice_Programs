@@ -7,7 +7,7 @@
 #W 200
 '''D means deposit while W means withdrawal.
 Suppose the following input is supplied to the program:
-D 300
+D 300D 
 D 300
 W 200
 D 100
@@ -18,7 +18,7 @@ Then, the output should be:
 dc={'D':0,'W':0}
 
 while True:
-    trans=input('Enter the transaction details: ').split()
+    trans=input('Enter the transaction details: ').split()   
     if trans:
         if trans[0]=='D':
             dc['D']+=int(trans[1])

@@ -5,7 +5,11 @@
 #The list is input by a sequence of comma-separated numbers.
 
 
-numbers=input('Enter a list of numbers: ').split(',')
+numbers=list(map(int,input('Enter a list of numbers: ').split(',')))
+oddsqr=[i*2 for i in numbers if i%2!=0] #list comprehension
+
+print(oddsqr)
+'''
 odd=[]
 for val in numbers:
     if int(val)%2!=0:
@@ -14,7 +18,7 @@ for val in numbers:
         #print(val**2,end=', ')
         
 print(','.join(odd))
-
+'''
 
 
  
