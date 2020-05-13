@@ -49,7 +49,7 @@ print(bistro.number_served)
 
 bistro.set_number_served(10)
 print(bistro.__dict__)
-print(bistro.get_number_served)
+
 
 bistro.increment_number_served(16)
 print(bistro.__dict__)

@@ -16,7 +16,7 @@ class User:
                 self.cat=cat
             else:
                 print('Choose Premium or VIP category.')
-                self.cat=input('Enter your valid category: ')''' #not checking the input again.
+                self.cat=input('Enter your valid category: ')''' #??not checking the input again.
 
     def describe_user(self):
         print(f'{self.first_name} {self.last_name} is a {self.cat} customer.')
@@ -62,9 +62,14 @@ print(ami.login_attempts)
 #Write a method called show_privileges() that lists the administrator’s set of privileges. 
 #Create an instance of Admin, and call your method. 
 
-class Admin(User):
-    def __init__(self,first_name,last_name,privileges=''):
-        super().__init__(first_name,last_name)
+
+#9-8. Privileges: Write a separate Privileges class. The class should have one attribute privileges.
+#Move the show_privileges() method to this class. Make a Privileges instance 
+#as an attribute in the Admin class. Create a new instance of Admin and use your
+#method to show its privileges .
+
+class Privileges():
+    def __init__(self,privileges=''):
         self.privileges=['can add post','can delete post','can ban user']
      
     def show_privileges(self):
@@ -72,5 +77,12 @@ class Admin(User):
         for i in self.privileges:
             print('-',i)
 
+class Admin(User):
+    def __init__(self,first_name,privileges=''):
+        super().__init__(first_name)
+        self.privileges=Privileges() #Instance as an attribute.
+        
 anvi=Admin('Anvi','jain')
-anvi.show_privileges()
+anvi.privileges.show_privileges()
+print(anvi.__dict__) #for priviledges it points towards Priveleges Object
+

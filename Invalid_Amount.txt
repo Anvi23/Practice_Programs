@@ -1,0 +1,2 @@
+Invalid amount -100 in transaction ID: 107
+Invalid amount -450 in transaction ID: 112

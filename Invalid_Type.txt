@@ -1,0 +1,5 @@
+Invalid transaction type Withdrew in transaction ID: 108
+Invalid transaction type Diposit in transaction ID: 114
+Invalid transaction type Depositt in transaction ID: 117
+Invalid transaction type Withdrw in transaction ID: 118
+Invalid transaction type Tarnsfer in transaction ID: 119
