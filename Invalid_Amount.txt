@@ -1,2 +1,2 @@
-Invalid amount -100 in transaction ID: 107
-Invalid amount -450 in transaction ID: 112
+2020-05-14 03:50:58.164314 Invalid amount -100 in transaction ID: 107
+2020-05-14 03:50:58.166380 Invalid amount -450 in transaction ID: 112

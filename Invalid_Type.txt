@@ -1,5 +1,5 @@
-Invalid transaction type Withdrew in transaction ID: 108
-Invalid transaction type Diposit in transaction ID: 114
-Invalid transaction type Depositt in transaction ID: 117
-Invalid transaction type Withdrw in transaction ID: 118
-Invalid transaction type Tarnsfer in transaction ID: 119
+2020-05-14 03:50:58.164342 Invalid transaction type Withdrew in transaction ID: 108
+2020-05-14 03:50:58.166970 Invalid transaction type Diposit in transaction ID: 114
+2020-05-14 03:50:58.169889 Invalid transaction type Depositt in transaction ID: 117
+2020-05-14 03:50:58.169901 Invalid transaction type Withdrw in transaction ID: 118
+2020-05-14 03:50:58.169909 Invalid transaction type Tarnsfer in transaction ID: 119

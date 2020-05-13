@@ -53,7 +53,7 @@ class Logfile:
         self.insuffb.close()
 
 logfile=Logfile()
-
+from datetime import datetime
 import mysql.connector
 mdb=mysql.connector.connect(host='localhost',user='root',passwd='Anvijain@2305',auth_plugin='mysql_native_password',database='Demodata')
 cur=mdb.cursor()
@@ -114,13 +114,13 @@ try:
                     raise InvalidAmount(transdata[4],transdata[0])
 
             except InvalidAmount as ia:
-                print(ia,file=logfile.inamount)
+                print(datetime.now(),ia,file=logfile.inamount)
             except InvalidTransactiontype as it:
-                print(it,file=logfile.intt)
+                print(datetime.now(),it,file=logfile.intt)
             except InsufficientBalance as isb:
-                print(isb,file=logfile.insuffb)
+                print(datetime.now(),isb,file=logfile.insuffb)
             except InvalidAccountN as ian:
-                print(ian,file=logfile.inaccnum)
+                print(datetime.now(),ian,file=logfile.inaccnum)
 except:
     print('All Exceptions')
 finally:

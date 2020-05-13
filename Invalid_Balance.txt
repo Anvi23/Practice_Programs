@@ -1,6 +1,5 @@
-Insufficient Account Balance for Account 10033 in transaction ID: 102
-Insufficient Account Balance for Account 10024 in transaction ID: 103
-Insufficient Account Balance for Account 10025 in transaction ID: 104
-Insufficient Account Balance for Account 10030 in transaction ID: 110
-Insufficient Account Balance for Account 10032 in transaction ID: 116
-Insufficient Account Balance for Account 10028 in transaction ID: 120
+2020-05-14 03:50:58.155568 Insufficient Account Balance for Account 10033 in transaction ID: 102
+2020-05-14 03:50:58.163001 Insufficient Account Balance for Account 10025 in transaction ID: 104
+2020-05-14 03:50:58.165693 Insufficient Account Balance for Account 10030 in transaction ID: 110
+2020-05-14 03:50:58.169856 Insufficient Account Balance for Account 10032 in transaction ID: 116
+2020-05-14 03:50:58.170537 Insufficient Account Balance for Account 10028 in transaction ID: 120
