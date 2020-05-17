@@ -24,10 +24,10 @@ while True:
         desc1=desc.split(',')
         one=sorted(desc1,key=lambda desc1:desc1[1])
         print(one)
-        #wo=sorted(one,key=lambda one:one[2])
-        #lst.append(tuple(two))
-        #lst.sort()
-        #print(lst)
+        #two=sorted(one,key=lambda one:one[2])
+        lst.append(one)
+        lst.sort()
+        print(lst)
         '''name=lst[0][0]
         for i in range(len(lst)):
             if lst[i][0]==lst[0][0]:
